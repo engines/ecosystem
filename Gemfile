@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+gem 'keycloak'
+
 gem 'sinatra'
 gem 'sinatra-contrib'
 gem 'sinatra-cross_origin'
