@@ -1,0 +1,25 @@
+{
+  "name": "engines_ecosystem",
+  "version": "0.0.0",
+  "description": "Engines Ecosystem",
+  "main": "_with_quotes.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify client/app.js -o server/public/bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/engines/ecosystem.git"
+  },
+  "author": "Engines",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "bugs": {
+    "url": "https://github.com/engines/ecosystem/issues"
+  },
+  "homepage": "https://github.com/engines/ecosystem#readme",
+  "devDependencies": {
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.10.2"
+  }
+}
